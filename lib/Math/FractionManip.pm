@@ -872,7 +872,7 @@ from CPAN and wouldn't install anyway. Now that is fixed.
 The decimal to fraction functionality of this module is too handy to
 not have imho. The module L<Number::Fraction> does a proper job of
 overloaded arithmetic. But it does not handle decimals in the
-constructior. So the main reason for this module re-appearing is its
+constructor. So the main reason for this module re-appearing is its
 decimal to fraction functionality.
 
 The source code is extremely ugly and throws warnings all over. But it
