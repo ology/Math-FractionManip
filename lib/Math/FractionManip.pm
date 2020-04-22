@@ -942,8 +942,6 @@ TAGS can equal 0 or one or more of the following:
 
 Control how the fraction is displayed.
 
-=over 8
-
 =item NORMAL
 
 Display in the #/# form.
@@ -963,8 +961,6 @@ The same as NORMAL but always includes the sign.
 =item DEF_MIXED
 
 Will let it be what ever the default value is at the time.
-
-=back
 
 =item REDUCE|NO_REDUCE|DEF_REDUCE
 
@@ -994,23 +990,43 @@ When the AUTO tag is set these tags will have NO effect.
 
 =item new
 
+The constructor.
+
 =item abs
+
+Overloaded for fractional arithmetic.
 
 =item add
 
+Overloaded for fractional arithmetic.
+
 =item cmp
+
+Overloaded for fractional arithmetic.
 
 =item div
 
+Overloaded for fractional arithmetic.
+
 =item mul
+
+Overloaded for fractional arithmetic.
 
 =item pow
 
+Overloaded for fractional arithmetic.
+
 =item sqrt
+
+Overloaded for fractional arithmetic.
 
 =item sub
 
+Overloaded for fractional arithmetic.
+
 =item modify_digits
+
+  modify_digits(NUM)
 
 =item reduce
 
@@ -1049,10 +1065,6 @@ Return a list of the object tags.
 Return a list of the object tags. If a particular tag
 is set to read a default the default tag is returned instead.
 
-=back
-
-=over 4
-
 =item modify
 
 Modify the object.  Works almost the same as the new method
@@ -1086,8 +1098,6 @@ The following methods will always modify or read the Class defaults:
 Return the default number of digits to return when doing
 floating point operations with BIG numbers, if set to undef
 Math::BigFloat will decide.
-
-  modify_digits(NUM)
 
 =back
 
