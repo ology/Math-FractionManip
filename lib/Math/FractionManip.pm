@@ -332,7 +332,7 @@ sub del_set {
 
 # This method works almost like the new method except that it takes an
 # object as an argement and will modify it instead of creating a new
-# object, also any tags assosated with the object are left in tact
+# object, also any tags associated with the object are left in tact
 # unless a new tag is given to override the old.
 sub modify {
   my $me = shift;
