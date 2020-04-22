@@ -1226,6 +1226,6 @@ turn it off.
 
 =head1 SEE ALSO
 
-The F<t/01-functions.t> program in this distribution
+The F<t/01-methods.t> program in this distribution
 
 =cut
