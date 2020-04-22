@@ -24,8 +24,8 @@ use overload
   fallback => 1;
 
 my %DEF = (
-  CURRENT => { TAGS => ['NORMAL', 'REDUCE', 'SMALL', 'AUTO'], DIGITS => undef, SYSTEM => 1, NAME => 'DEFAULT' },
-  DEFAULT => { TAGS => ['NORMAL', 'REDUCE', 'SMALL', 'AUTO'], DIGITS => undef, READONLY => 1, SYSTEM => 1 },
+  CURRENT => { TAGS => [qw/ NORMAL REDUCE SMALL AUTO /], DIGITS => undef, SYSTEM => 1, NAME => 'DEFAULT' },
+  DEFAULT => { TAGS => [qw/ NORMAL REDUCE SMALL AUTO /], DIGITS => undef, READONLY => 1, SYSTEM => 1 },
   BLANK   => { TAGS => ['', '', ''], DIGITS => '', READONLY => 1, SYSTEM => 1 },
 );
 
