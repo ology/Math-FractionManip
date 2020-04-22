@@ -1,0 +1,6 @@
+Revision history for Math-FractionManip
+
+{{$NEXT}}
+    - Ressurect from the original Math::Fraction.
+    - Clean-up code formatting and documentation grammar.
+    - Add tests.
