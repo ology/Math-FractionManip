@@ -1,6 +1,9 @@
 Revision history for Math-FractionManip
 
 {{$NEXT}}
+    - Improve documentation.
+
+0.5401 2020-04-22 01:40:35
     - Fix ambiguous abs() calls.
 
 0.5400 2020-04-22 01:05:29
