@@ -4,6 +4,6 @@ Revision history for Math-FractionManip
     - Fix ambiguous abs() calls.
 
 0.5400 2020-04-22 01:05:29
-    - Ressurect from the original Math::Fraction.
+    - Resurrect from the original Math::Fraction.
     - Clean-up code formatting and documentation grammar.
     - Add tests.
