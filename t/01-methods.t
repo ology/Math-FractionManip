@@ -61,6 +61,8 @@ is $got, '10/20', 'fraction';
 my $f1 = Math::FractionManip->new(2, 3);
 my $f2 = Math::FractionManip->new(4, 5);
 
+is $f1 - $f1, '0/1', 'sub';
+is $f1 / $f1, '1/1', 'div';
 is $f1 + $f2, '22/15', 'add';
 is $f1 * $f2, '8/15', 'mul';
 is $f1 + 1.6667, '7/3', 'add';
@@ -76,6 +78,13 @@ is $f2 + 10, '10 4/5', 'modify_tag';
 
 is $f1 ** 1.2, '229739670999407/373719281884655', 'exp';
 is $f1->num ** 1.2, '0.614738607654485', 'exp';
+
+is $f1 ** 0.5, '70710678118655/86602540378444', 'exp';
+is sqrt($f1), '70710678118655/86602540378444', 'sqrt';
+
+is $f1 cmp $f1, 0, 'cmp';
+is $f2 cmp $f1, 1, 'cmp';
+is $f1 cmp $f2, -1, 'cmp';
 
 $got = Math::FractionManip->new(1, 2) + Math::FractionManip->new(2, 5);
 is $got, '9/10', 'add';
