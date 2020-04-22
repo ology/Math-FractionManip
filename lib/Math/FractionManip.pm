@@ -1208,7 +1208,7 @@ When you give it a number it will decide if it is small enough to be
 stored as a SMALL or if the fraction needs to converted to BIG.
 However, in order for it to recognize a big fraction the number needs to
 be in quotes. Thus,
-C<Math::FractionManip->new(7823495784957895478,781344567825678454)>
+C<Math::FractionManip-E<gt>new(7823495784957895478,781344567825678454)>
 will be stored as a SMALL with some of the digits lost.
 
 When calculating to SMALL numbers that results in a number that is too
