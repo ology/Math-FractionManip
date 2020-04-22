@@ -641,8 +641,8 @@ sub _reduce {
 sub _simplify_sign {
   my @frac = @_;
   my $sign = 1;
-  $sign = ($frac[0] / abs($frac[0])) * ($frac[1] / abs($frac[1])) if $frac[0];
-  @frac = ($sign * abs($frac[0]), abs($frac[1]));
+  $sign = ($frac[0] / CORE::abs($frac[0])) * ($frac[1] / CORE::abs($frac[1])) if $frac[0];
+  @frac = ($sign * CORE::abs($frac[0]), CORE::abs($frac[1]));
   return @frac;
 }
 
@@ -696,7 +696,7 @@ sub _tags_preserve {
 }
 
 sub _gcd {
-  my ($x, $y) = (abs($_[0]), abs($_[1]));
+  my ($x, $y) = (CORE::abs($_[0]), CORE::abs($_[1]));
   if (ref($x)) {
     $x = Math::BigInt->new($x->bgcd($y));
   }
@@ -993,8 +993,6 @@ When the AUTO tag is set these tags will have NO effect.
 =item Methods
 
 =item new
-
-=item frac
 
 =item abs
 
