@@ -1,6 +1,8 @@
 Revision history for Math-FractionManip
 
 {{$NEXT}}
+
+0.5403 2020-04-22 03:19:23
     - Improve documentation.
     - Add legacy changes from Math::Fraction to this file.
     - Add tests.
