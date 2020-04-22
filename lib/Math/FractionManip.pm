@@ -1238,4 +1238,8 @@ turn it off.
 
 The F<t/01-methods.t> program in this distribution
 
+=head1 MAINTAINER
+
+Gene Boggs <gene@cpan.org>
+
 =cut
