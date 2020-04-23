@@ -73,7 +73,7 @@ is $got, '7/3', 'fraction';
 $got = Math::FractionManip->new('54/5', 'NORMAL');
 is $got, '54/5', 'fraction';
 
-$f2->modify_tag('MIXED', 'BIG');
+$f2->modify_tag('MIXED');
 is $f2 + 10, '10 4/5', 'modify_tag';
 
 is $f1 ** 1.2, '229739670999407/373719281884655', 'exp';
