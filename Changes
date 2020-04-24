@@ -1,6 +1,8 @@
 Revision history for Math-FractionManip
 
 {{$NEXT}}
+    - Remove possibly crusty, broken code upon which *-ld cpantesters were choking.
+    - Rework tests for ** and sqrt.
 
 0.5403 2020-04-22 03:19:23
     - Improve documentation.
