@@ -1,6 +1,9 @@
 Revision history for Math-FractionManip
 
 {{$NEXT}}
+    - Re-add the removed tests and sprintf() them.
+
+0.5501 2020-04-24 09:30:01
     - Remove two tests that will usually fail and are not strictly necessary.
 
 0.5500 2020-04-23 17:51:18
