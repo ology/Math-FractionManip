@@ -5,7 +5,7 @@ package Math::FractionManip;
 use strict;
 #use warnings;
 
-our $VERSION = '0.5502';
+our $VERSION = '0.5503';
 
 use Carp;
 use Math::BigInt;
