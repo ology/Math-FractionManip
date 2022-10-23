@@ -5,11 +5,11 @@ package Math::FractionManip;
 use strict;
 #use warnings;
 
-our $VERSION = '0.5503';
+our $VERSION = '0.5504';
 
-use Carp;
-use Math::BigInt;
-use Math::BigFloat;
+use Carp qw(croak);
+use Math::BigInt ();
+use Math::BigFloat ();
 use overload
   '+'      => 'add',
   '-'      => 'sub',

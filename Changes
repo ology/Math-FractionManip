@@ -2,6 +2,7 @@ Revision history for Math-FractionManip
 
 {{$NEXT}}
     - Fix copyright.
+    - Avoid implicit imports.
 
 0.5503 2020-04-25 13:11:47
     - Remove questionable tests that attempted to compare floats for the ** and sqrt operations.
